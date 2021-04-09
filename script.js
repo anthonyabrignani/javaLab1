@@ -15,8 +15,3 @@ for (let i = 0; i < lifeEvents.length; i++) {
     console.log(lifeEvents[i]);
   }
 
-const counter = 0;
-
-while (counter < 11) {
-    
-}
