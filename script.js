@@ -15,3 +15,18 @@ for (let i = 0; i < lifeEvents.length; i++) {
     console.log(lifeEvents[i]);
   }
 
+let counter = 0;
+
+while (true) {
+    
+    let randomNumber = Math.floor(Math.random() * 11);
+    if (randomNumber !== 5) {
+        counter ++;
+        console.log(`${randomNumber} !== 5`);
+    }   else {
+        counter ++;
+        console.log(`5===5. It took ${counter} iterations to randomly generate the number 5.`);
+        break;
+    }  
+}
+
